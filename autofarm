@@ -1,0 +1,7 @@
+--AUTOFARM
+_G.LULU = true
+what()
+if game.players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
+end
+end
